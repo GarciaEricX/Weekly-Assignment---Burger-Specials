@@ -2,6 +2,8 @@
     Private Sub btnSelectMeal_Click(sender As Object, e As EventArgs) Handles btnSelectMeal.Click
         btnExit.Enabled = True
         lblConfirmation.Visible = True
+        btnVeggie.Enabled = False
+        btnBeef.Enabled = False
     End Sub
 
     Private Sub btnBeef_Click(sender As Object, e As EventArgs) Handles btnBeef.Click
